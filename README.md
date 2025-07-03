@@ -1,4 +1,4 @@
-    @app.route('/webhook', methods=['POST'])
+    @app.route('/webhook', 
     def webhook_receiver():
         # Process the incoming webhook data
         try:
